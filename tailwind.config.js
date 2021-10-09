@@ -31,9 +31,6 @@ module.exports = {
           light: "#E06AA6",
         },
       },
-      backgroundImage: (theme) => ({
-        "dashboard-image": "url('/dashboard.svg')",
-      }),
     },
   },
   variants: {

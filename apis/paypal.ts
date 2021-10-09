@@ -9,6 +9,7 @@ export const generateOrder = async (id: string, currency = "USD") => {
   const response = await axios.post(`/order/paypal/${id}`, {
     currency,
   });
+  // @ts-ignore
   return response.data.id;
 };
 

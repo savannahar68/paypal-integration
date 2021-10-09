@@ -1,3 +1,4 @@
+// @ts-nocheck
 import axios, { AxiosError, AxiosRequestConfig, AxiosResponse } from "axios";
 import router from "next/router";
 import Toastr from "../component/Toastr";

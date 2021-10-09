@@ -1,8 +1,18 @@
-# paypal-integration
+# Paypal Payment gateway integration
 
 Intergrating paypal payment gateway
 
+Follow the steps mentioned here to get Paypal ClientId and Secret for Sandbox or Production app : https://developer.paypal.com/docs/api/overview/#get-credentials
+
 ### Frontend
 
-1. npm install
-2. npm run dev
+1. Open .env and modify paste your Paypal Client Id
+2. RUN npm install
+3. RUN npm run dev
+
+### Backend
+
+1. Open .env and modify paste your Paypal Client Id and Secret
+2. cd into backend folder `cd backend`
+3. RUN npm install
+4. RUN npm run server

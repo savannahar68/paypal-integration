@@ -102,6 +102,7 @@ const PaypalButtonWrapper = ({
                     details.purchase_units[0].payments["captures"][0]
                       .id as string
                   );
+                  // @ts-ignore
                   messageFromServer = resFromServer.message;
                   // Make Calls to backend to changes in react state corresponding to successful payment here
                   setPaymentStatus("Success");
