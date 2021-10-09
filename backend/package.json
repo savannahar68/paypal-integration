@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for paypal payment gateway integration",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savannahar68/paypal-integration.git.git"
+  },
+  "keywords": [
+    "nodejs",
+    "paypal",
+    "typescript"
+  ],
+  "author": "savannahar68",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/savannahar68/paypal-integration.git/issues"
+  },
+  "homepage": "https://github.com/savannahar68/paypal-integration.git#readme"
+}

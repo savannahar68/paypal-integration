@@ -1,0 +1,25 @@
+{
+  "name": "paypal-payment-gateway-integration",
+  "version": "1.0.0",
+  "description": "Integrating paypal payment gateway with your application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savannahar68/paypal-integration.git"
+  },
+  "keywords": [
+    "paypal",
+    "nodejs",
+    "react",
+    "typescript"
+  ],
+  "author": "savannahar68",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/savannahar68/paypal-integration/issues"
+  },
+  "homepage": "https://github.com/savannahar68/paypal-integration#readme"
+}
