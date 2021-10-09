@@ -31,11 +31,11 @@ const PaypalButtonWrapper = ({
   };
 
   const closeModalsAndRedirect = () => {
-    window.location.href = "/dashboard";
+    window.location.href = "/paypal";
   };
 
   return (
-    <div className="flex-1">
+    <div className="relative z-0 flex-1">
       <Modal
         open={modalOpen}
         handlers={closeModals}
@@ -110,13 +110,13 @@ const PaypalButtonWrapper = ({
                   setModalOpen(true);
                 } catch {
                   Toastr.error(
-                    "Error enrolling student, please contact tech@abhyasu.com"
+                    "Error enrolling student, please contact tech@xyz.com"
                   );
                 }
               } else {
                 setPaymentStatus("Fail");
                 setModalText(
-                  "Payment failed. Please contact tech@abhyasu.com if money is deducted!"
+                  "Payment failed. Please contact tech@xyz.com if money is deducted!"
                 );
                 setModalOpen(true);
               }
