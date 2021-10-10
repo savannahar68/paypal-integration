@@ -33,6 +33,12 @@ export const createOrder = async function (amount: string, currency: string) {
             item_total: {
               currency_code: currency,
               value: amount,
+              /*
+               * If you have a item_total key, make sure that:
+               *  
+               *  item_total.value = sum of (items[].unit_amount * items[].quantity)  
+               */
+
             },
           },
         },
@@ -44,6 +50,15 @@ export const createOrder = async function (amount: string, currency: string) {
               value: amount,
             },
             quantity: "1",
+            /* 
+             * category is an ENUM with following possible values:
+             *    DIGITAL_GOODS, 
+             *    PHYSICAL_GOODS,
+             *    DONATION
+             * 
+             * More Details here: https://developer.paypal.com/docs/api/orders/v2/#:~:text=possible%20values%20are%3A-,DIGITAL_GOODS,-.%20Goods%20that%20are 
+             * 
+             */
             category: "DIGITAL_GOODS",
           },
         ],
