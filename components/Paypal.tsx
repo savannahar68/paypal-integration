@@ -31,7 +31,7 @@ const PaypalButtonWrapper = ({
   };
 
   const closeModalsAndRedirect = () => {
-    window.location.href = "/paypal";
+    window.location.href = "/";
   };
 
   return (
